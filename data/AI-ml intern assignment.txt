@@ -1,0 +1,81 @@
+Project Title: Sanskrit Document Retrieval-Augmented Generation (RAG) System
+
+1. Objective
+
+The objective of this assignment is to design and implement a Retrieval-Augmented Generation (RAG) system capable of processing and answering queries based on Sanskrit documents. The system must operate fully on CPU-based inference.
+
+2. Description
+
+You are required to develop an end-to-end RAG pipeline that performs the following tasks:
+
+Ingest Sanskrit documents (in .txt or .pdf format) on some domain.
+
+Preprocess and index these documents for efficient retrieval.
+
+Implement a query interface that accepts user input in Sanskrit or transliterated text.
+
+Retrieve relevant context chunks from the indexed corpus.
+
+Generate coherent responses using a CPU-based Large Language Model (LLM) integrated into the pipeline.
+
+The RAG architecture should follow standard practices, ensuring modularity between the retriever and generator components.
+
+3. Technical Requirements
+
+Language of Source Documents: Sanskrit (attached in mail)
+
+Model Inference: CPU only (no GPU usage permitted)
+
+Core Components:
+
+Document Loader and Preprocessor
+
+Retriever (Vector or Keyword based)
+
+Generator (LLM-based text generator)
+
+Frameworks (allowed): Any open-source framework or library for retrieval and generation
+
+Deployment Environment: Local or lightweight containerized setup
+
+4. Expected Deliverables
+
+Technical Report detailing:
+
+System architecture and flow
+
+Details of the Sanskrit documents used
+
+Preprocessing pipeline for Sanskrit documents
+
+Retrieval and generation mechanisms
+
+Performance observations (latency, accuracy/relevant metric, resource usage)
+
+Codebase containing:
+
+Complete, runnable implementation
+
+Clear instructions in a README.md for setup and execution
+
+Configuration files (if applicable)
+
+Demonstration Video (Optional) showing end-to-end query–response flow.
+
+5. Evaluation Criteria
+
+6. Submission Format
+
+Folder Name: RAG_Sanskrit_<InternName>
+
+Contents:
+
+/code/ – implementation scripts
+
+/data/ – sample Sanskrit documents used
+
+/report/ – final PDF report
+
+README.md – setup and usage instructions
+
+Submit your completed assignment in the Github repository
