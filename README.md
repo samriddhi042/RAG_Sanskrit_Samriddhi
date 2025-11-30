@@ -13,7 +13,7 @@ This project is a Retrieval-Augmented Generation (RAG) system that answers quest
 
 - `code/` – all Python scripts
 - `data/` – input docs, cleaned text, chunks, FAISS index, metadata
-- `report/` – final report (to be added)
+- `report/` – technical report (PDF + DOCX)
 - `venv/` – virtual environment (not needed on GitHub)
 
 ## 3. How to set up (steps)
